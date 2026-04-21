@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 150 Most Spoken Languages (2026) | Ethnologue Ranking | WLC</title>
+  <meta name="description" content="View the definitive ranking of the top 150 most spoken languages in 2026. Data sourced from the Ethnologue 29th Edition. Mandarin, Spanish, English, and more.">
+  <meta name="keywords" content="language ranking, most spoken languages 2026, ethnologue top 150, mandarin speakers, spanish speakers, wlc ranking">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#080c14">
+  <meta name="google-site-verification" content="PASTE_GOOGLE_SEARCH_CONSOLE_TOKEN_HERE">
+  <link rel="canonical" href="https://worldlanguagescatalog.vercel.app/ranking.html">
+  <link rel="alternate" hreflang="en" href="https://worldlanguagescatalog.vercel.app/ranking.html">
+  <link rel="alternate" hreflang="x-default" href="https://worldlanguagescatalog.vercel.app/ranking.html">
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://worldlanguagescatalog.vercel.app/ranking.html">
+  <meta property="og:site_name" content="World Languages Catalog">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Top 150 Most Spoken Languages (2026) | WLC">
+  <meta property="og:description" content="Explore the definitive ranking of the world's largest languages in 2026.">
+  <meta property="og:image" content="https://worldlanguagescatalog.vercel.app/img/logo.png">
+  <meta property="og:image:alt" content="Top 150 Most Spoken Languages by native speakers">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Top 150 Most Spoken Languages 2026">
+  <meta property="twitter:description" content="Definitive linguistic ranking from Ethnologue 29th Edition.">
+  <meta property="twitter:image" content="https://worldlanguagescatalog.vercel.app/img/logo.png">
+  <meta property="twitter:image:alt" content="Top 150 Most Spoken Languages by native speakers">
+
+  <!-- Structured Data: ItemList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "url": "https://worldlanguagescatalog.vercel.app/ranking.html",
+    "name": "Top 150 Most Spoken Languages (2026)",
+    "description": "A ranked list of the world's most spoken languages by native speakers.",
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "numberOfItems": 150
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://query.wikidata.org" crossorigin>
+  <link rel="preload" href="img/logo.svg" as="image" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="apple-touch-icon" href="img/favicon.svg">
+</head>
+<body>
+
+  <!-- â”€â”€ Navigation â”€â”€ -->
+  <nav class="nav-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="img/logo.svg" alt="WLC Logo" class="logo-img" width="160" height="40" fetchpriority="high" decoding="async">
+        <span class="logo-text">WLC</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Full Catalog</a>
+        <a href="ranking.html" class="active">Top 150 Ranking</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- â”€â”€ Header â”€â”€ -->
+  <header>
+    <div class="header-content">
+      <div class="live-badge">
+        <span class="live-dot"></span>
+        Ranking  |  Ethnologue 2026
+      </div>
+      <h1>Top 150 Most Spoken Languages</h1>
+      <p class="subtitle">The definitive <strong>29th Edition (2026)</strong> ranking by native (L1) speakers worldwide.</p>
+    </div>
+  </header>
+
+  <!-- â”€â”€ Main â”€â”€ -->
+  <main>
+    <section id="top-section">
+      <div id="top-grid" class="language-grid">
+        <!-- Rendered by script.js -->
+        <div class="loading-state">
+          <div class="spinner-ring"></div>
+          <p>Loading 2026 Rankings...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hidden catalog on this page -->
+    <div id="controls" class="hidden"></div>
+    <div id="all-section" class="hidden"></div>
+
+    <!-- Shared UI elements -->
+    <div id="loading" class="loading-state hidden">
+      <div class="spinner-ring"></div>
+      <p id="loading-msg"></p>
+      <div class="progress-bar-wrap"><div class="progress-bar" id="progress-bar"></div></div>
+    </div>
+    <div id="error-state" class="error-state hidden">
+      <div class="error-icon">!</div>
+      <h3>Failed to load rankings</h3>
+      <p id="error-message"></p>
+      <button id="retry-btn" onclick="fetchLanguageData()">Try Again</button>
+    </div>
+  </main>
+
+  <!-- â”€â”€ Footer â”€â”€ -->
+  <footer>
+    <p>
+      Data primarily from <strong>Ethnologue 29th Ed. (2026)</strong> and <strong>Wikidata</strong>.
+    </p>
+  </footer>
+
+  <!-- Modal Overlay (Shared) -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div class="modal-header">
+        <div id="modal-rank-badge" class="rank-badge">#-</div>
+        <h2 id="modal-name">-</h2>
+        <div id="modal-iso" class="lang-code">-</div>
+      </div>
+      <div class="modal-body">
+        <div class="description-section"><p id="modal-description" class="modal-description">-</p></div>
+        <div class="detail-group">
+          <label>Classification</label>
+          <div class="detail-row"><span class="detail-icon">F</span><div class="detail-label">Family</div><div id="modal-family" class="detail-value">-</div></div>
+          <div class="detail-row"><span class="detail-icon">B</span><div class="detail-label">Branch</div><div id="modal-branch" class="detail-value">-</div></div>
+        </div>
+        <div class="detail-group">
+          <label>Metrics</label>
+          <div class="detail-row"><span class="detail-icon">S</span><div class="detail-label">Native Speakers</div><div id="modal-speakers" class="detail-value">-</div></div>
+        </div>
+      </div>
+      <div class="modal-footer"><div class="source-info">Ethnologue 29th Ed.  |  Wikidata</div></div>
+    </div>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
