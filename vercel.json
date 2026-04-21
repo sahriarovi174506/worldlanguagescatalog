@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/ranking",
+      "destination": "/ranking.html"
+    },
+    {
+      "source": "/ranking/",
+      "destination": "/ranking.html"
+    }
+  ]
+}
