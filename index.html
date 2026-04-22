@@ -1,32 +1,39 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>World Languages Catalog (WLC) | 7,000+ Languages (Ethnologue 2026)</title>
-  <meta name="description" content="Explore the comprehensive World Languages Catalog (WLC). Search over 7,000 living languages by name, ISO 639-3 code, or family. Featuring the latest Ethnologue 29th Edition (2026) data.">
-  <meta name="keywords" content="language catalog, most spoken languages, world languages, ethnologue 2026, ISO 639-3, linguistic database, WLC">
+  <meta name="description"
+    content="Explore the comprehensive World Languages Catalog (WLC). Search over 7,000 living languages by name, ISO 639-3 code, or family. Featuring the latest Ethnologue 29th Edition (2026) data.">
+  <meta name="keywords"
+    content="language catalog, most spoken languages, world languages, ethnologue 2026, ISO 639-3, linguistic database, WLC">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#080c14">
   <meta name="google-site-verification" content="TaCdaixML9x-7S6unc3wXCuENGZuFP7jSaotytWOlFs">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1T54X997P"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-Z1T54X997P');
   </script>
   <link rel="canonical" href="https://worldlanguagescatalog.vercel.app/">
   <link rel="alternate" hreflang="en" href="https://worldlanguagescatalog.vercel.app/">
   <link rel="alternate" hreflang="x-default" href="https://worldlanguagescatalog.vercel.app/">
-  
+
   <!-- Open Graph / Social -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://worldlanguagescatalog.vercel.app/">
   <meta property="og:site_name" content="World Languages Catalog">
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="World Languages Catalog (WLC) | 7,000+ Languages">
-  <meta property="og:description" content="Detailed database of all known living languages. Live Wikidata SPARQL integration.">
+  <meta property="og:description"
+    content="Detailed database of all known living languages. Live Wikidata SPARQL integration.">
   <meta property="og:image" content="https://worldlanguagescatalog.vercel.app/img/logo.png">
   <meta property="og:image:alt" content="World Languages Catalog logo">
 
@@ -39,18 +46,18 @@
 
   <!-- Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Dataset",
-    "url": "https://worldlanguagescatalog.vercel.app/",
-    "name": "World Languages Catalog (WLC)",
-    "description": "A comprehensive database of over 7,000 world languages with speaker counts and classifications.",
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "creator": {
-      "@type": "Organization",
-      "name": "WLC Team"
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "url": "https://worldlanguagescatalog.vercel.app/",
+      "name": "World Languages Catalog (WLC)",
+      "description": "A comprehensive database of over 7,000 world languages with speaker counts and classifications.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "WLC Team"
+      }
     }
-  }
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,20 +65,24 @@
   <link rel="preconnect" href="https://query.wikidata.org" crossorigin>
   <link rel="preload" href="img/logo.svg" as="image" type="image/svg+xml">
   <link rel="manifest" href="site.webmanifest">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  
+
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
   <link rel="apple-touch-icon" href="img/favicon.svg">
 </head>
+
 <body>
 
-  <!-- â”€â”€ Navigation â”€â”€ -->
+  <!-- ------ Navigation ------ -->
   <nav class="nav-header">
     <div class="nav-container">
       <a href="index.html" class="logo-link">
-        <img src="img/logo.svg" alt="WLC Logo" class="logo-img" width="160" height="40" fetchpriority="high" decoding="async">
+        <img src="img/logo.svg" alt="WLC Logo" class="logo-img" width="160" height="40" fetchpriority="high"
+          decoding="async">
         <span class="logo-text">WLC</span>
       </a>
       <div class="nav-links">
@@ -81,15 +92,16 @@
     </div>
   </nav>
 
-  <!-- â”€â”€ Header â”€â”€ -->
+  <!-- ------ Header ------ -->
   <header>
     <div class="header-content">
       <div class="live-badge">
         <span class="live-dot"></span>
-        Live  |  Wikidata SPARQL
+        Live | Wikidata SPARQL
       </div>
       <h1>World Languages Catalog</h1>
-      <p class="subtitle">Top 150 ranked by <strong>Ethnologue 29th Edition (2026)</strong>  |  Full catalog via Wikidata SPARQL  |  ISO 639-3</p>
+      <p class="subtitle">Top 150 ranked by <strong>Ethnologue 29th Edition (2026)</strong> | Full catalog via Wikidata
+        SPARQL | ISO 639-3</p>
       <div class="stats-bar">
         <div class="stat-item">
           <span class="stat-number" id="stat-total">-</span>
@@ -109,11 +121,16 @@
     </div>
   </header>
 
-  <!-- â”€â”€ Controls â”€â”€ -->
+  <!-- ------ Controls ------ -->
   <div class="controls" id="controls">
     <div class="search-wrapper">
-      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
-      <input type="text" id="search-input" placeholder="Search by name, ISO code, or language family..." autocomplete="off">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+      <input type="text" id="search-input" placeholder="Search by name, ISO code, or language family..."
+        autocomplete="off">
       <span class="search-count" id="search-count"></span>
     </div>
     <div class="sort-row">
@@ -128,7 +145,7 @@
     </div>
   </div>
 
-  <!-- â”€â”€ Main â”€â”€ -->
+  <!-- ------ Main ------ -->
   <main>
 
     <!-- Loading -->
@@ -136,12 +153,19 @@
       <div class="spinner-ring"></div>
       <p id="loading-msg" class="loading-msg">Connecting to Wikidata...</p>
       <p class="loading-sub">Fetching 7,000+ language records - this takes 10-20 seconds</p>
-      <div class="progress-bar-wrap"><div class="progress-bar" id="progress-bar"></div></div>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
     </div>
 
     <!-- Error -->
     <div id="error-state" class="error-state hidden">
-      <svg class="error-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 20h20L12 2z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+      <svg class="error-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2L2 20h20L12 2z"></path>
+        <line x1="12" y1="9" x2="12" y2="13"></line>
+        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+      </svg>
       <h3>Failed to load language data</h3>
       <p id="error-message"></p>
       <button id="retry-btn" onclick="fetchLanguageData()">Try Again</button>
@@ -177,7 +201,7 @@
 
   </main>
 
-  <!-- â”€â”€ Footer â”€â”€ -->
+  <!-- ------ Footer ------ -->
   <footer>
     <p>
       Data sourced live from
@@ -189,11 +213,11 @@
     </p>
   </footer>
 
-  <!-- â”€â”€ Modal: Language Details â”€â”€ -->
+  <!-- ------ Modal: Language Details ------ -->
   <div id="modal-overlay" class="modal-overlay hidden">
     <div class="modal-card">
       <button class="modal-close" id="modal-close-btn">&times;</button>
-      
+
       <div class="modal-header">
         <div id="modal-rank-badge" class="rank-badge">#-</div>
         <h2 id="modal-name">Language Name</h2>
@@ -208,12 +232,19 @@
         <div class="detail-group">
           <label>Classification</label>
           <div class="detail-row">
-            <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6m0 0v6m0 0v6"></path><path d="M6 8h12M6 14h12M6 20h12"></path></svg>
+            <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v6m0 0v6m0 0v6"></path>
+              <path d="M6 8h12M6 14h12M6 20h12"></path>
+            </svg>
             <div class="detail-label">Family</div>
             <div id="modal-family" class="detail-value">-</div>
           </div>
           <div class="detail-row">
-            <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"></path></svg>
+            <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 6l6 6-6 6"></path>
+            </svg>
             <div class="detail-label">Branch</div>
             <div id="modal-branch" class="detail-value">-</div>
           </div>
@@ -222,7 +253,13 @@
         <div class="detail-group">
           <label>Metrics</label>
           <div class="detail-row">
-            <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
             <div class="detail-label">Native Speakers</div>
             <div id="modal-speakers" class="detail-value">-</div>
           </div>
@@ -239,6 +276,5 @@
 
   <script src="js/script.js" defer></script>
 </body>
+
 </html>
-
-

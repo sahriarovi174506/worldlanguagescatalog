@@ -1,7 +1,7 @@
-﻿// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //  Ethnologue 29th Edition (2026) - Top 150 languages by L1 native speakers
 //  Source: Ethnologue.com (2026 public rankings, marking 75 years of SIL data)
-// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 const ETHNOLOGUE_TOP150 = [
   { "rank": 1, "name": "Mandarin Chinese", "iso": "cmn", "speakers": 941000000, "family": "Sino-Tibetan", "branch": "Sinitic" },
   { "rank": 2, "name": "Spanish", "iso": "spa", "speakers": 490000000, "family": "Indo-European", "branch": "Romance" },
@@ -106,7 +106,7 @@ const ETHNOLOGUE_TOP150 = [
   { "rank": 101, "name": "Turkmen", "iso": "tuk", "speakers": 6700000, "family": "Turkic", "branch": "Oghuz" },
   { "rank": 102, "name": "Armenian", "iso": "hye", "speakers": 6700000, "family": "Indo-European", "branch": "Armenian" },
   { "rank": 103, "name": "Lingala", "iso": "lin", "speakers": 6600000, "family": "Niger-Congo", "branch": "Bantu" },
-  { "rank": 104, "name": "GuaranÃ­", "iso": "gug", "speakers": 6500000, "family": "Tupian", "branch": "" },
+  { "rank": 104, "name": "Guarani", "iso": "gug", "speakers": 6500000, "family": "Tupian", "branch": "" },
   { "rank": 105, "name": "Tibetan", "iso": "bod", "speakers": 6200000, "family": "Sino-Tibetan", "branch": "Tibeto-Burman" },
   { "rank": 106, "name": "Tswana", "iso": "tsn", "speakers": 5800000, "family": "Niger-Congo", "branch": "Bantu" },
   { "rank": 107, "name": "Wolof", "iso": "wol", "speakers": 5700000, "family": "Niger-Congo", "branch": "Atlantic" },
@@ -115,7 +115,7 @@ const ETHNOLOGUE_TOP150 = [
   { "rank": 110, "name": "Danish", "iso": "dan", "speakers": 5500000, "family": "Indo-European", "branch": "Germanic" },
   { "rank": 111, "name": "Minangkabau", "iso": "min", "speakers": 5500000, "family": "Austronesian", "branch": "Malayo-Polynesian" },
   { "rank": 112, "name": "Finnish", "iso": "fin", "speakers": 4900000, "family": "Uralic", "branch": "Finnic" },
-  { "rank": 113, "name": "Norwegian BokmÃ¥l", "iso": "nob", "speakers": 4600000, "family": "Indo-European", "branch": "Germanic" },
+  { "rank": 113, "name": "Norwegian Bokmal", "iso": "nob", "speakers": 4600000, "family": "Indo-European", "branch": "Germanic" },
   { "rank": 114, "name": "Northern Sotho", "iso": "nso", "speakers": 4600000, "family": "Niger-Congo", "branch": "Bantu" },
   { "rank": 115, "name": "Kyrgyz", "iso": "kir", "speakers": 4500000, "family": "Turkic", "branch": "Kipchak" },
   { "rank": 116, "name": "Lao", "iso": "lao", "speakers": 4300000, "family": "Kra-Dai", "branch": "Tai" },
@@ -155,12 +155,12 @@ const ETHNOLOGUE_TOP150 = [
   { "rank": 150, "name": "Irish", "iso": "gle", "speakers": 170000, "family": "Indo-European", "branch": "Celtic" }
 ];
 
-// Build a lookup map: lowercase ISO â†’ top-150 entry (for merging with Wikidata)
+// Build a lookup map: lowercase ISO --- top-150 entry (for merging with Wikidata)
 const TOP150_MAP = Object.fromEntries(
   ETHNOLOGUE_TOP150.map(l => [l.iso.toLowerCase(), l])
 );
 
-// â”€â”€â”€ Speaker-count corrections â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Speaker-count corrections ------------------------------------------------------------------------------------------------------------------------------------------------
 const SPEAKER_CORRECTIONS = {
   'oak': { name: 'Noakhailla',   speakers: 14000000, family: 'Indo-European', branch: 'Indo-Aryan' },
   'syl': { name: 'Sylheti',      speakers: 16000000, family: 'Indo-European', branch: 'Indo-Aryan' },
@@ -168,7 +168,7 @@ const SPEAKER_CORRECTIONS = {
   'ctg': { name: 'Chittagonian', speakers: 11500000, family: 'Indo-European', branch: 'Indo-Aryan' },
 };
 
-// â”€â”€â”€ Wikidata SPARQL - full 7 000+ language catalog â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Wikidata SPARQL - full 7 000+ language catalog ---------------------------------------------------------------------------------
 const SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql';
 
 // Uses a subquery so GROUP BY happens before label resolution
@@ -192,7 +192,7 @@ SELECT ?lang ?langLabel ?langDescription ?iso ?speakers ?famItemLabel WHERE {
 }
 `;
 
-// â”€â”€â”€ Initialization â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Initialization ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 let isRankingPage = false;
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -299,7 +299,7 @@ function initCleanUrls() {
   });
 }
 
-// â”€â”€â”€ State â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- State ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 let allLanguages = [];
 let filteredLanguages = [];
 let curatedDescriptions = {};  // Loaded from descriptions.json
@@ -309,7 +309,7 @@ const PAGE_SIZE = 150;
 let searchQuery = '';
 let sortMode = 'speakers';
 
-// â”€â”€â”€ Fetch â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Fetch ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 async function fetchLanguageData(isRankingOnly = false) {
   resetUI();
   
@@ -353,7 +353,7 @@ async function fetchLanguageData(isRankingOnly = false) {
   }
 }
 
-// â”€â”€â”€ Process & Merge â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Process & Merge ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function processData(bindings) {
   const seen = new Set();
   const wikiMap = {};
@@ -459,7 +459,7 @@ function processData(bindings) {
   filteredLanguages = [...allLanguages];
 }
 
-// â”€â”€â”€ Render All â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Render All ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function renderAll(isRankingOnly = false) {
   if (isRankingOnly) {
     renderTopLanguages();
@@ -480,7 +480,7 @@ function renderAll(isRankingOnly = false) {
   renderNextPage(); // Renamed from renderNextBatch in previous context, checking match
 }
 
-// â”€â”€â”€ Top 150 Cards â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Top 150 Cards ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function renderTopLanguages() {
   const grid = document.getElementById('top-grid');
   if (!grid) return;
@@ -541,7 +541,7 @@ function renderTopLanguages() {
   grid.appendChild(fragment);
 }
 
-// â”€â”€â”€ Paginated All-Languages List â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Paginated All-Languages List ---------------------------------------------------------------------------------------------------------------------------------------
 function resetList() {
   displayedCount = 0;
   document.getElementById('all-list').innerHTML = '';
@@ -596,7 +596,7 @@ function updateLoadMore() {
   }
 }
 
-// â”€â”€â”€ Search & Sort â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Search & Sort ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function applyFilters() {
   const q = searchQuery.toLowerCase();
 
@@ -645,7 +645,7 @@ function applyFilters() {
   renderNextPage();
 }
 
-// â”€â”€â”€ Stats â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Stats ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function updateStats() {
   const withSpk = allLanguages.filter(l => l.speakers).length;
   const families = new Set(allLanguages.map(l => l.family).filter(Boolean)).size;
@@ -654,7 +654,7 @@ function updateStats() {
   animateCount('stat-families', families, 600);
 }
 
-// â”€â”€â”€ Helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Helpers ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function formatNum(n) {
   if (!n) return '-';
   if (n >= 1e9) return (n / 1e9).toFixed(2) + 'B';
@@ -725,9 +725,9 @@ function resetUI() {
   if (controls) controls.classList.add('hidden');
 }
 
-// â”€â”€â”€ Events (Unified in Initialization) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Events (Unified in Initialization) ---------------------------------------------------------------------------------------------------------------------
 
-// â”€â”€â”€ Details Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// --------- Details Modal ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 function generateFallbackDesc(lang) {
   const family = lang.family || 'Unknown family';
