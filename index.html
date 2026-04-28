@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,22 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>World Languages Catalog (WLC) | 7,000+ Languages (Ethnologue 2026)</title>
   <meta name="description"
-    content="Explore the comprehensive World Languages Catalog (WLC). Search over 7,000 living languages by name, ISO 639-3 code, or family. Featuring the latest Ethnologue 29th Edition (2026) data.">
+    content="The definitive database for world languages. Explore 7,000+ living languages with L1 speaker counts, classification, and ISO 639-3 codes. Live SPARQL data integration.">
   <meta name="keywords"
-    content="language catalog, most spoken languages, world languages, ethnologue 2026, ISO 639-3, linguistic database, WLC">
+    content="language catalog, most spoken languages, world languages, ethnologue 2026, ISO 639-3, linguistic database, WLC, language preservation, SPARQL">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" content="#080c14">
+  <meta name="theme-color" content="#030712">
   <meta name="google-site-verification" content="TaCdaixML9x-7S6unc3wXCuENGZuFP7jSaotytWOlFs">
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1T54X997P"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-Z1T54X997P');
+    gtag('config', 'G-Z1T54X997P', { 'anonymize_ip': true });
   </script>
+
   <link rel="canonical" href="https://worldlanguagescatalog.vercel.app/">
   <link rel="alternate" hreflang="en" href="https://worldlanguagescatalog.vercel.app/">
   <link rel="alternate" hreflang="x-default" href="https://worldlanguagescatalog.vercel.app/">
@@ -31,33 +30,59 @@
   <meta property="og:url" content="https://worldlanguagescatalog.vercel.app/">
   <meta property="og:site_name" content="World Languages Catalog">
   <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="World Languages Catalog (WLC) | 7,000+ Languages">
+  <meta property="og:title" content="World Languages Catalog (WLC) | Global Linguistic Database">
   <meta property="og:description"
-    content="Detailed database of all known living languages. Live Wikidata SPARQL integration.">
+    content="The world's most comprehensive language database. Explore 7,000+ languages through live Wikidata integration.">
   <meta property="og:image" content="https://worldlanguagescatalog.vercel.app/img/logo.png">
-  <meta property="og:image:alt" content="World Languages Catalog logo">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="World Languages Catalog branding">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="World Languages Catalog (WLC)">
   <meta property="twitter:description" content="Detailed database of all known living languages.">
   <meta property="twitter:image" content="https://worldlanguagescatalog.vercel.app/img/logo.png">
-  <meta property="twitter:image:alt" content="World Languages Catalog logo">
 
-  <!-- Structured Data -->
+  <!-- Structured Data: Website & Dataset -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Dataset",
-      "url": "https://worldlanguagescatalog.vercel.app/",
-      "name": "World Languages Catalog (WLC)",
-      "description": "A comprehensive database of over 7,000 world languages with speaker counts and classifications.",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "creator": {
-        "@type": "Organization",
-        "name": "WLC Team"
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://worldlanguagescatalog.vercel.app/",
+        "name": "World Languages Catalog",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://worldlanguagescatalog.vercel.app/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "url": "https://worldlanguagescatalog.vercel.app/",
+        "name": "World Languages Catalog (WLC) Database",
+        "description": "Comprehensive database of global languages including ISO codes, speaker demographics, and genealogical classifications.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": {
+          "@type": "Organization",
+          "name": "WLC Professional Team"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://worldlanguagescatalog.vercel.app/"
+          }
+        ]
       }
-    }
+    ]
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,8 +90,7 @@
   <link rel="preconnect" href="https://query.wikidata.org" crossorigin>
   <link rel="preload" href="img/logo.svg" as="image" type="image/svg+xml">
   <link rel="manifest" href="site.webmanifest">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 
@@ -77,49 +101,58 @@
 
 <body>
 
-  <!-- ------ Navigation ------ -->
   <nav class="nav-header">
     <div class="nav-container">
       <a href="index.html" class="logo-link">
-        <img src="img/logo.svg" alt="WLC Logo" class="logo-img" width="160" height="40" fetchpriority="high"
-          decoding="async">
+        <img src="img/favicon.svg" alt="WLC Logo" class="logo-img">
         <span class="logo-text">WLC</span>
       </a>
+      <button class="mobile-menu-btn" aria-label="Toggle Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
       <div class="nav-links">
         <a href="index.html" class="active">Full Catalog</a>
-        <a href="ranking.html">Top 150 Ranking</a>
+        <a href="ranking.html">Ranking</a>
+        <a href="about.html">About</a>
+        <a href="diversity.html">Diversity</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
       </div>
     </div>
   </nav>
 
-  <!-- ------ Header ------ -->
-  <header>
+
+  <header class="fade-in">
     <div class="header-content">
-      <div class="live-badge">
-        <span class="live-dot"></span>
-        Live | Wikidata SPARQL
+      <div class="live-badge"
+        style="background: var(--softa); border: 1px solid var(--accent); color: var(--accent); padding: 6px 16px; border-radius: 100px; font-weight: 700; font-size: 0.7rem; letter-spacing: 0.1em; display: inline-block; margin-bottom: 2rem;">
+        LIVE | WIKIDATA SPARQL
       </div>
       <h1>World Languages Catalog</h1>
-      <p class="subtitle">Top 150 ranked by <strong>Ethnologue 29th Edition (2026)</strong> | Full catalog via Wikidata
-        SPARQL | ISO 639-3</p>
-      <div class="stats-bar">
+      <p class="subtitle">An authoritative linguistic database featuring over 7,000 living languages. Data-driven
+        insights from <strong>Ethnologue 29th Ed.</strong> and <strong>Wikidata</strong>.</p>
+
+      <div class="stats-bar fade-in delay-1">
         <div class="stat-item">
-          <span class="stat-number" id="stat-total">-</span>
-          <span class="stat-label">Languages</span>
+          <span class="stat-number" id="stat-total">7,168</span>
+          <span class="stat-label">Total Languages</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <span class="stat-number" id="stat-speakers">-</span>
+          <span class="stat-number" id="stat-speakers">3,500+</span>
           <span class="stat-label">With Speaker Data</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <span class="stat-number" id="stat-families">-</span>
-          <span class="stat-label">Families</span>
+          <span class="stat-number" id="stat-families">142</span>
+          <span class="stat-label">Language Families</span>
         </div>
       </div>
     </div>
   </header>
+
 
   <!-- ------ Controls ------ -->
   <div class="controls" id="controls">
@@ -174,10 +207,70 @@
     <!-- Top 30 -->
     <!-- Top 150 Section moved to ranking.html -->
 
-    <!-- All Languages List -->
-    <section id="all-section" class="hidden">
+    <!-- Substantial Semantic Content for SEO & User Value -->
+    <section class="seo-content fade-in"
+      style="max-width: 800px; margin: 4rem auto; text-align: center; padding: 0 1rem;">
+      <h2 style="color: var(--accent); margin-bottom: 1.5rem; font-size: 2rem;">The World's Most Comprehensive Open
+        Linguistic Database</h2>
+      <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 1.5rem; text-align: left;">
+        Welcome to the <strong>World Languages Catalog (WLC)</strong>, a groundbreaking digital initiative dedicated to
+        cataloging, analyzing, and preserving the rich linguistic heritage of humanity. While many resources focus only
+        on the most spoken tongues, our database goes deeper to include over 7,000 living languages currently spoken
+        across the globe. By aggregating live data from Wikidata SPARQL endpoints and aligning it with the authoritative
+        Ethnologue 29th Edition and ISO 639-3 standards, we provide an unparalleled real-time research tool for
+        linguists, educators, and language enthusiasts.
+      </p>
+      <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 1.5rem; text-align: left;">
+        From dominant global languages like Mandarin Chinese, Spanish, and English—which boast billions of combined
+        speakers—to critically endangered indigenous languages with only a handful of remaining fluent speakers, every
+        entry in our registry tells a unique human story. Understanding the genealogical trees, speaker demographics,
+        and geographical distribution of these languages is crucial not just for academic study, but for maintaining the
+        cultural biodiversity that defines our species.
+      </p>
+      <p style="color: var(--text-dim); line-height: 1.8; text-align: left;">
+        Use our advanced search and sorting tools below to explore the intricate web of human communication. Whether you
+        are tracking the proliferation of the Indo-European language family or seeking data on isolated linguistic
+        branches, the WLC serves as your definitive gateway to the world of speech.
+      </p>
+    </section>
+
+    <section class="reveal mt-xl">
       <div class="section-header">
-        <h2>All Documented Languages</h2>
+        <h2>Featured Language Profiles</h2>
+        <span class="section-badge">Deep Guides</span>
+      </div>
+      <div class="grid-3">
+        <div class="info-card" style="padding: 2rem;">
+          <h3 style="margin-bottom: 0.6rem;"><a href="languages/cmn.html">Mandarin Chinese</a></h3>
+          <p style="color: var(--muted); font-size: 0.9rem;">Tone system, script standards, dialect distribution, grammar profile, and references.</p>
+        </div>
+        <div class="info-card" style="padding: 2rem;">
+          <h3 style="margin-bottom: 0.6rem;"><a href="languages/eng.html">English</a></h3>
+          <p style="color: var(--muted); font-size: 0.9rem;">Global varieties, historical layers, grammar highlights, and cross-language comparison notes.</p>
+        </div>
+        <div class="info-card" style="padding: 2rem;">
+          <h3 style="margin-bottom: 0.6rem;"><a href="languages/oak.html">Noakhailla</a></h3>
+          <p style="color: var(--muted); font-size: 0.9rem;">Regional vitality profile with dialect context and documentation priorities.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Language -->
+    <section id="featured-language-section" class="featured-section hidden fade-in">
+      <div class="featured-content">
+        <span class="featured-label">Featured Language</span>
+        <h2 id="featured-name" class="featured-name">-</h2>
+        <p id="featured-desc" class="featured-desc">-</p>
+      </div>
+      <div class="featured-action">
+        <button id="featured-btn" class="btn-primary">View Details</button>
+      </div>
+    </section>
+
+    <!-- All Languages List -->
+    <section id="all-section" class="hidden fade-in">
+      <div class="section-header">
+        <h2>Complete Linguistic Registry</h2>
         <span class="section-badge" id="all-count">-</span>
       </div>
 
@@ -199,18 +292,91 @@
       </div>
     </section>
 
+    <!-- SECTION: Explore By Region -->
+    <section class="reveal mt-xl">
+      <div class="section-header">
+        <h2>Explore By Region</h2>
+        <span class="section-badge">Geography</span>
+      </div>
+      <div class="grid-3">
+        <div class="info-card" style="padding: 2rem;">
+          <h3 style="color: var(--accent); margin-bottom: 0.5rem;">Asia & Pacific</h3>
+          <p style="color: var(--muted); font-size: 0.85rem;">Home to the highest density of linguistic diversity, including the Papuan languages.</p>
+        </div>
+        <div class="info-card" style="padding: 2rem;">
+          <h3 style="color: var(--accent); margin-bottom: 0.5rem;">Africa</h3>
+          <p style="color: var(--muted); font-size: 0.85rem;">Over 2,000 languages, with the Niger-Congo family being the largest in the world.</p>
+        </div>
+        <div class="info-card" style="padding: 2rem;">
+          <h3 style="color: var(--accent); margin-bottom: 0.5rem;">Americas</h3>
+          <p style="color: var(--muted); font-size: 0.85rem;">Encompassing hundreds of indigenous languages, many critically endangered.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Endangerment Crisis -->
+    <section class="reveal mt-xl" style="background: rgba(239, 68, 68, 0.05); border: 1px solid rgba(239, 68, 68, 0.2); padding: 3rem 2rem; border-radius: var(--radius-lg); text-align: center;">
+      <h2 style="color: #fca5a5; margin-bottom: 1rem; font-size: 1.8rem;">The Endangerment Crisis</h2>
+      <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto 2rem; line-height: 1.8;">
+        Nearly half of the world's 7,000 languages are at risk of extinction within this century. We lose one language approximately every two weeks, taking with it unique histories and knowledge systems.
+      </p>
+      <a href="diversity.html" class="btn-primary" style="background: #ef4444; color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 8px; font-weight: 600; display: inline-block;">Learn More About Diversity</a>
+    </section>
+
+    <!-- SECTION: Data Sources -->
+    <section class="reveal mt-xl">
+      <div class="section-header">
+        <h2>How We Source Data</h2>
+        <span class="section-badge">Methodology</span>
+      </div>
+      <div class="grid-3 text-center">
+        <div>
+          <h3 style="margin-bottom: 0.5rem;">Wikidata SPARQL</h3>
+          <p style="color: var(--muted); font-size: 0.85rem;">Live integration with community-verified linguistic endpoints.</p>
+        </div>
+        <div>
+          <h3 style="margin-bottom: 0.5rem;">Ethnologue 29th Ed.</h3>
+          <p style="color: var(--muted); font-size: 0.85rem;">Authoritative speaker counts focused strictly on native (L1) usage.</p>
+        </div>
+        <div>
+          <h3 style="margin-bottom: 0.5rem;">ISO 639-3 Standard</h3>
+          <p style="color: var(--muted); font-size: 0.85rem;">Globally recognized codes ensuring data interoperability.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: Join the Initiative -->
+    <section class="reveal mt-xl text-center" style="padding: 4rem 1rem; border-top: 1px solid var(--border);">
+      <h2 style="font-size: 2rem; margin-bottom: 1rem;">Join the Initiative</h2>
+      <p style="color: var(--muted); margin-bottom: 2rem; max-width: 500px; margin-inline: auto;">Are you a linguist, developer, or educator? Help us improve the catalog and advocate for global linguistic rights.</p>
+      <a href="about.html" style="color: var(--accent); font-weight: 600; text-decoration: none;">Get involved &rarr;</a>
+    </section>
+
   </main>
 
   <!-- ------ Footer ------ -->
   <footer>
-    <p>
-      Data sourced live from
-      <a href="https://query.wikidata.org/" target="_blank" rel="noopener">Wikidata SPARQL Query Service</a>
-      &nbsp; | &nbsp;
-      ISO 639-3 language codes
-      &nbsp; | &nbsp;
-      Speaker counts via Wikidata property P1098
-    </p>
+    <div class="footer-content">
+      <div class="footer-nav">
+        <a href="index.html">Full Catalog</a>
+        <a href="ranking.html">Ranking</a>
+        <a href="about.html">About</a>
+        <a href="diversity.html">Diversity</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <p>
+        Data sourced live from
+        <a href="https://query.wikidata.org/" target="_blank" rel="noopener">Wikidata SPARQL</a>
+        &nbsp; | &nbsp;
+        Ethnologue 29th Edition (2026)
+        &nbsp; | &nbsp;
+        ISO 639-3 Standard
+      </p>
+      <p style="margin-top: 1rem; font-size: 0.75rem;">&copy; 2026 World Languages Catalog. All rights reserved.</p>
+    </div>
   </footer>
 
   <!-- ------ Modal: Language Details ------ -->

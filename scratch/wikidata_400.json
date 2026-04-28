@@ -1,0 +1,7608 @@
+{
+  "head" : {
+    "vars" : [ "lang", "langLabel", "iso", "speakers" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9192"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cmn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "918000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mandarin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q727694"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cmn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "897071810"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Standard Chinese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1860"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "eng"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "753359540"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "English"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1321"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "spa"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "485000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spanish"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13955"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ara"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "315421300"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arabic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13955"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ara"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "295000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arabic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q150"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fra"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "208157220"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "French"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9240"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ind"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "198996550"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indonesian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7737"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rus"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "154000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q58635"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pan"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "125000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Punjabi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3197533"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "swh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "82300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kiswahili"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q150"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fra"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "77200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "French"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9237"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "msa"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "77000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malay"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7033959"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "yue"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "73100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yue Chinese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33549"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "jav"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "68300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Javanese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3513637"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pes"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "52800000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iranian Persian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33655"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pcm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "47500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nigerian Pidgin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56479"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cjy"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "46900000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9168"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fas"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "45000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Persian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56593"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "apc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "44000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Levantine Arabic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9240"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ind"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "43627550"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Indonesian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33810"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ory"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "34500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Odia"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34002"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sun"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "32400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sundanese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33578"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ibo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "27000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Igbo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22809485"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "apc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "24600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Levantine Arabic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33864"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "orm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "24000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oromo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56592"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "aec"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "22400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saʽidi Arabic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29579"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "awa"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "22000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Awadhi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36368"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kur"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "21000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kurdish"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9217"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tha"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "20700000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thai"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9205"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "khm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "16600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khmer"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3197533"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "swh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "16010110"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kiswahili"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33239"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ceb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "15900000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cebuano"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36510"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ell"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "15000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Modern Greek"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36129"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fuv"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "14500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nigerian Fulfulde"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29540"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bar"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "14100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bavarian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3449805"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "azb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13800000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "South Azerbaijani"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33173"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ctg"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chittagonian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34327"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tso"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "13000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsonga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9067"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hun"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hungarian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10179"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "zul"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "12100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zulu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36457"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mnp"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "11000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northern Min"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q131339"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gsw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "10000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alemannic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33491"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hat"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haitian Creole"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9288"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "heb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9303950"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hebrew"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15637215"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "knc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9270000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Kanuri"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9027"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "swe"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9244250"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedish"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35936"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ilo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ilocano"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7918"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bul"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bulgarian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9299"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "srp"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "9000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Serbian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65455884"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rwr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7856410"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marwari"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65455884"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rwr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7855400"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marwari"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65455884"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rwr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7830000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marwari"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9091"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bel"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belarusian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36096"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mos"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mooré"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34124"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tir"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7507780"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tigrinya"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36811"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ckb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "7250000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sorani"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34173"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lua"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "6300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luba-Kasai"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9058"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "slk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "6000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Slovak"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36943"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wal"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5830000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wolayttattuwa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34124"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tir"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5800000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tigrinya"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13324"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "min"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5530000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Minangkabau"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2638144"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "suk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5430000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sukuma"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9211"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lao"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5225552"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lao"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9043"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nor"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Norwegian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33190"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bug"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5017800"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bugis"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2605943"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wtm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mewati"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5555465"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gpe"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "5000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ghanaian Pidgin English"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7026"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cat"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4873396"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Catalan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17478066"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gug"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4850000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paraguayan Guaraní"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33655"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pcm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4700000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nigerian Pidgin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33954"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sag"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sango"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56546"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "czh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Huizhou Chinese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56508"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sou"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southern Thai"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35876"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "grn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guarani"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34137"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tsn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tswana"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1420205"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fuc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4450000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pulaar"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34174"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rif"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4399000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tarifit"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25164"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nno"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4320000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nynorsk"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33890"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nso"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northern Sotho"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34327"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tso"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4009000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsonga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11732445"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wry"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Merwari"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33813"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "blu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Miao"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9083"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lit"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lithuanian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25167"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nob"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bokmål"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56410"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ksw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "4000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "S'gaw Karen"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2574767"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kam"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3893000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kamba"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56231"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mey"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3763900"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hassaniya Arabic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5575236"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gom"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3633900"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Goan Konkani"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33052"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bem"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bemba"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27683"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ace"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3500032"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Acehnese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33151"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bjn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banjar"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34327"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tso"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsonga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13356"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mzn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3270000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mazanderani"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32238"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dag"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3160000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dagbanli"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9027"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "swe"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3118000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swedish"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34279"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "war"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Waray"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3436689"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bzs"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brazilian Sign Language"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34831"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "abr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bono"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1496597"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sdh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southern Kurdish"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5414796"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "luo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "3000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dholuo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6399808"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "khk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2704030"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khalkha Mongolian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32706"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dyu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2700000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dioula"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35377"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "efi"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2693000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Efik"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6433240"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "spv"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2630000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sambalpuri"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33657"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "glk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2550000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gilaki"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35455"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bik"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bikol"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33284"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bcl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Central Bikol"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56583"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cpx"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pu-Xian Min"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33990"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sus"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Susu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36121"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pam"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kapampangan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9307"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "glg"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Galician"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3270727"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cgg"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2390000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kiga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35670"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "laj"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lango"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34014"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ssw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2034200"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swazi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34235"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "iii"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nuosu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15085"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pms"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piedmontese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35100"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pcc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bouyei"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33492"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kru"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kurukh"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56323"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gmo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gamo-Gofa-Dawro"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q699284"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sxu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Upper Saxon"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36486"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "shk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shilluk"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9296"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mkd"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Macedonian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35541"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wes"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "2000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cameroon Pidgin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8054983"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "zyb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1980000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yongbei Zhuang"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33291"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fon"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1935500"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fon"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3438770"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kai"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1800000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karai-karai"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10199"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "zza"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1640000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zazaki"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1307730"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "quh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1616120"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "South Bolivian Quechua"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33643"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mak"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Makassar"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35375"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bin"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Edo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35613"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nde"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1572800"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northern Ndebele"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3502294"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "noe"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nimadi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56601"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "khg"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khams Tibetan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9078"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lav"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Latvian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35481"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kbr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kafa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33270"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hoc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ho"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56483"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lki"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Laki"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35379"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kmc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kam"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2707343"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sgw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1480000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sebat Bet Gurage"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1199751"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mfa"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1470000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kelantan-Pattani Malay"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33868"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mni"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1470000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meitei"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3502234"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kxm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northern Khmer"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q180945"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hyw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1395240"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Armenian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56466"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "din"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1365900"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dinka"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1057898"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "egl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emilian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34101"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "toi"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1270000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tonga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13389"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bak"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bashkir"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13634282"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "zeh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eastern Hongshuihe Zhuang"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2085051"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tsc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tswa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12953177"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "taj"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1180000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eastern Tamang"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33025"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bej"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1178000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beja"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3236789"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mtq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1140000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Muong"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q934541"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hnm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hainanese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2891049"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "btm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mandailing Batak"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1641543"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rgn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Romagnol"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36663"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "urh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Urhobo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33717"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mdh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maguindanao"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33720"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "krj"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1056093"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karay-a"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2501174"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gor"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gorontalo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12952748"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "luz"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southern Luri"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1199751"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mfa"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kelantan-Pattani Malay"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23014"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pfl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palatinate German"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35475"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kbp"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kabiye"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32238"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dag"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "1000000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dagbanli"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3105505"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "haq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "990000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ha"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56622"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "drs"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "980000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gedeo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4121131"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nym"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "980000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyamwezi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36045"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "its"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "940000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Itsekiri"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33332"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kac"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "940000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jingpo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33880"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "stv"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "935000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Selti"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35145"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "quy"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "918200"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ayacucho Quechua"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3285748"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mqy"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "900000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Manggarai"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33675"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nus"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "900000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nuer"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2992872"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nij"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "890000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ngaju"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35664"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ktb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "890000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kambaata"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7121294"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "blk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "860000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pa'O"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35028"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bum"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "860000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bulu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13349"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mnw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "850000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mon"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1068112"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "xmm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "850000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Manado"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q72695"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nut"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "850000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nung"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q327274"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "swg"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "820000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Swabian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35331"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gur"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "820000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Farefare"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2498808"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ium"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "820000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iu Mien"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1262143"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pga"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "800000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Juba Arabic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33800"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mrw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "780000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maranao"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36748"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pnt"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "778000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pontic Greek"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13214"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "zap"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "777000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zapotec"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3450749"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rki"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "765000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rakhine"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56407"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "blt"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "760000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tai Dam"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33364"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fvr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "746000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fur"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56516"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hni"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "740000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hani"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2520717"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rng"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "722000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ronga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q934738"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lic"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "700000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hlai"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34024"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pcd"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "700000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Picard"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36948"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "khb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "700000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tai Lü"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3305477"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gyn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "700000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guyanese Creole"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35602"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hwc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "700000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hawaiian Pidgin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3437661"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ruf"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "692000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luguru"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q626210"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mgr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "674000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mambwe-Lungu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36503"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fia"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "669000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nobiin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3788739"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ksb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "664000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shambala"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36556"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tdd"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "650000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tai Nüa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3915207"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tyr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "650000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tai Daeng"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36785"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nbl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "640000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southern Ndebele"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6667767"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rag"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "618300"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Logooli"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2361829"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "koo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "609000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Konjo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33628"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "loz"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lozi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35401"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kaj"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jju"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13198"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rcf"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Réunion Creole"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33661"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mfe"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mauritian Creole"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7915983"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "vav"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Varli"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56643"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ahk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akha"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34219"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wln"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "600000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Walloon"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33954"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sag"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "599000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sango"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33541"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kaa"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "583410"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karakalpak"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6480112"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "leb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "580000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lala-Bisa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6432786"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kfp"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "570000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Korwa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56643"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ahk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "560000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akha"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33954"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sag"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sango"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1472421"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fly"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsotsitaal"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36147"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lus"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mizo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33339"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pov"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guinea-Bissau Creole"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36673"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sda"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toraja-Sa’dan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34024"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pcd"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Picard"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213434"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sgs"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samogitian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33190"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bug"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bugis"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36403"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "asa"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pare"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4670066"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "taq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tamasheq"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35115"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cak"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "500000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kaqchikel"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34934"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "awn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "490000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Awngi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56310"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kdt"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "488900"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kuy"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33335"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kjg"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "480000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khmu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1971400"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "adh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "480000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adhola"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q973685"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "chm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "470000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mari"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33595"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "irk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "460000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Iraqw"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30319"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "szl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "457900"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Silesian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35780"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lhu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "450000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lahu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35807"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lob"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "440000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lobi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33634"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "xal"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "431800"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kalmyk"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35536"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kek"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "420000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Q’eqchi’"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34949"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bsq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "420000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bassa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3507832"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dyo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "410000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jola-Fonyi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q241146"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cja"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cham"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35999"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "anc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ngas"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1775596"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ibg"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ibanag"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4175893"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mrh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "400000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mara"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35614"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dug"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "397000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kiduruma"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3501850"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pbv"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "395124"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pnar"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9051"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ltz"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "391200"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxembourgish"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56411"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bwx"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "390000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bu-Nao"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7673650"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tap"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "382000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tabwa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q46728"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hif"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "380000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fiji Hindi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33178"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wti"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "367000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Berta"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3192339"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kyk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "363000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kamayo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37010"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ziw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "355000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zigula"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3056339"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rej"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "350000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rejang"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36809"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tzo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "350000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tzotzil"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33948"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "msb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "350000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masbateño"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35272"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ank"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "347005"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Goemai"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35108"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bcq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "347000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bench"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33295"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fij"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "341270"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33295"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fij"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "330000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33856"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pap"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "321300"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Papiamento"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35318"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ebu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "320000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Embu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33295"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fij"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "320000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fijian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33856"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pap"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "319000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Papiamento"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33714"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "krc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "310400"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karachay-Balkar"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2478711"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nxq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "310000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naxi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2478711"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nbf"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "310000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naxi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7071227"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nyd"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "310000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nyole"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33714"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "krc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "305364"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karachay-Balkar"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9051"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ltz"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "303000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxembourgish"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35403"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "jab"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hyam"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3112388"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "swi"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sui"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1363072"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gcr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guianan Creole"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3182585"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "smw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sumbawa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35268"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ish"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Esan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2701322"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "osi"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osing"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6935584"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mnb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "300000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Muna"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35860"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mde"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "296000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maba"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56652"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "alw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "287000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alaba-K’abeena"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33302"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fsl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "283000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "French Sign Language"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8072097"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "zib"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "280000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zimbabwe Sign Language"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q760732"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mne"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "280000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naba"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7675751"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "twh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "280000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tai Dón"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2850262"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wni"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "275000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ndzwani Comorian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37007"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "zag"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "274000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zaghawa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36914"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wss"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "273000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wasa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36353"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ssy"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "271180"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Saho"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28433"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "njo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "261000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ao"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17522631"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ngb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "250290"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northern Ngbandi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56388"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "thz"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "250000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Air Tamajeq"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3501903"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "eth"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "250000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ethiopian Sign Language"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q14759"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ase"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "250000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "American Sign Language"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13301"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "naq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "250000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khoekhoe"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35317"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "eto"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "250000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eton"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56239"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bde"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "250000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bade"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3053279"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "xbr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "240000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kambera"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33081"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dzo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "237080"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dzongkha"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q8821"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cnr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "232600"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Montenegrin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29440"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "aii"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "232300"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Assyrian Neo-Aramaic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12633026"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bto"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "230000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rinconada Bikol"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33093"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bas"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "230000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Basaa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1143040"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "enq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "230000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Enga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q237409"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "zea"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "220000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zeelandic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36098"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "lam"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "219000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lamba"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2396970"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "guk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "219000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gumuz"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16116629"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bxr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "219000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russia Buriat"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3915365"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "enn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "211000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Engenni"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56527"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "xan"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "210000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Xamtanga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34024"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pcd"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Picard"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q149208"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "frs"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "East Frisian Low Saxon"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32947"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sce"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dongxiang"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3914920"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "yba"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yala"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3307195"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kzj"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Coastal Kadazan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7675751"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "twh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "200000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tai Dón"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q667747"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fip"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "195000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fipa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6821677"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mvz"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "195000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mesqan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35490"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cab"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "190000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Garifuna"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6935584"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mnb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "187000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Muna"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13257"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "uum"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "185000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Urum"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1516803"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "miq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "180000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Miskito"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33617"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hmo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "180000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiri Motu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6480777"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "slp"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "180000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lamaholot"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35179"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ctu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "180000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ch’ol"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7987774"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dnw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "180000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lani"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33590"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "njh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "179467"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lotha"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15407179"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "thk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "176000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tharaka"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3440432"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cla"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "176000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ron"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36803"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tsz"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "175000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Purépecha"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33960"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ski"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "175000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sika"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33081"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dzo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "171000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dzongkha"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1268244"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rsb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "170000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Romano-Serbian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35168"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "qus"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "170000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Santiagueño Quechua"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13310"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nav"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "169369"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Navajo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4914553"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bkd"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "168234"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Binukid"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3258739"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dop"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "160000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lukpa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32924"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bdq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "160000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bahnar"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6430753"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kqy"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "159200"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koore"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4121130"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kdn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "157000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kunda"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6522666"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "leh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "156000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lenje"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34124"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tir"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "152000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tigrinya"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34214"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mjg"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "152000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monguor"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36612"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "xsr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sherpa"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13357"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fit"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Meänkieli"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35573"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hus"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teenek"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32480"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mki"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dhatki"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12952596"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kyu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Kayah"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29490"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bno"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bantoanon"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2328761"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mhy"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ma'anyan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36149"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mzb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mozabite"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5614980"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ngu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "150000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guerrero Nahuatl"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22711"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pdc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "148000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pennsylvania German"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36151"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "jbn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "140000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nafusi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56677"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "anu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "140000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anuak"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33677"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pbb"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "140000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Páez"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16114351"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pua"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "140000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Western Highland Purepecha"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3513320"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pmf"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "137000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pamona"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27602"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mrr"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "134000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maria"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33205"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bfq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "134000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Badaga"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7193332"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ngp"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "132000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ngulu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q529921"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tan"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "130000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tangale"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7208577"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pof"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "130000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Poke"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35774"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "mgm"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "130000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mambai"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34079"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tab"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "126900"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tabasaran"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3250286"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cnh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "125000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hakha–Chin"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2067656"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "end"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "124000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ende"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35708"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kus"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "121000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kusaal"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13210"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rsl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "120000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Russian Sign Language"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33617"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hmo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "120000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiri Motu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3545044"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kkh"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "120000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khün"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33153"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "cyo"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "120000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cuyonon"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6740513"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ymk"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "119700"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Makwe"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37059"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "bpy"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "117500"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bishnupriya Manipuri"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35296"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "etu"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "116700"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ekoi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30898"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "gil"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "116280"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gilbertese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3409819"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "qul"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "116000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Bolivian Quechua"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33856"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "pap"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "115000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Papiamento"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29316"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "rup"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "112960"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aromanian"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2067656"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "end"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "110000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ende"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2319877"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "hvn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "110000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hawu"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3147383"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ibl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "110000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ibaloi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2071325"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "kkv"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "110000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kangeanic"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3571351"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "yka"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "110000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yakan"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3571364"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "yky"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "110000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yakoma"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q56495"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "jdt"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "106000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Judeo-Tat"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17522635"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nbw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "105000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southern Ngbandi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2697010"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ljl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "105000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lio"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4418344"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sty"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "101000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Siberian Tatar"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q845441"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sdc"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sassarese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5228140"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fay"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kuhmareyi"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36568"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "dsq"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tadaksahak"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q612220"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "sdn"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gallurese"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11130292"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "nto"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ntomba"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3042206"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "wmw"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mwani"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7675773"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "tjl"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tai Laing"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35727"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "fng"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fanagalo"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6393846"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ked"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kerewe"
+      }
+    }, {
+      "lang" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7022396"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "niy"
+      },
+      "speakers" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+        "type" : "literal",
+        "value" : "100000"
+      },
+      "langLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ngiti"
+      }
+    } ]
+  }
+}

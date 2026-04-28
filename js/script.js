@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Page-specific initialization
   if (isRankingPage) {
     fetchLanguageData(true);
-  } else {
+  } else if (document.getElementById('all-list')) {
     fetchLanguageData(false);
     
     // Home-only listeners
@@ -229,7 +229,55 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') closeLanguageDetails();
   });
+
+  // Mobile Menu Toggle
+  const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+  const navLinks = document.querySelector('.nav-links');
+  if (mobileMenuBtn && navLinks) {
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenuBtn.classList.toggle('open');
+      navLinks.classList.toggle('nav-open');
+    });
+  }
+
+  // FAQ Accordion
+  document.querySelectorAll('.faq-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(other => other.classList.remove('active'));
+      if (!isActive) item.classList.add('active');
+    });
+  });
+
+  // Diversity Facts
+  const facts = [
+    { title: "The Most Diverse Country", desc: "Papua New Guinea holds the record for the most linguistically diverse country in the world, with over 840 distinct languages spoken among its population." },
+    { title: "The Rate of Loss", desc: "Approximately one language dies every two weeks. When a language is lost, centuries of traditional knowledge and cultural identity go with it." },
+    { title: "Language Isolates", desc: "Basque (Euskara) is a famous language isolate. It is the only surviving pre-Indo-European language in Western Europe and has no known relatives." },
+    { title: "The Digital Divide", desc: "Over 90% of the world's languages are not represented on the internet. Promoting digital inclusion is vital for language survival." }
+  ];
+  let currentFactIdx = 0;
+  document.getElementById('next-fact-btn')?.addEventListener('click', () => {
+    currentFactIdx = (currentFactIdx + 1) % facts.length;
+    document.getElementById('fact-title').textContent = facts[currentFactIdx].title;
+    document.getElementById('fact-desc').textContent = facts[currentFactIdx].desc;
+  });
+
+  // Scroll Reveal
+  initScrollReveal();
 });
+
+function initScrollReveal() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+}
 
 // Clean URLs (hide .html in links and browser bar) while keeping static-file compatibility
 function initCleanUrls() {
@@ -261,7 +309,11 @@ function initCleanUrls() {
     const fileName = fileMatch[1];
     const cleanPath = toCleanPath(fileName);
     if (cleanPath !== path) {
-      window.history.replaceState({}, '', cleanPath + window.location.search + window.location.hash);
+      try {
+        window.history.replaceState({}, '', cleanPath + window.location.search + window.location.hash);
+      } catch (e) {
+        console.warn('Clean URLs not supported in this environment (likely file:// protocol)');
+      }
     }
   }
 
@@ -470,6 +522,7 @@ function renderAll(isRankingOnly = false) {
 
   // Full catalog page
   updateStats();
+  updateFeaturedLanguage();
   
   const allSection = document.getElementById('all-section');
   const controls = document.getElementById('controls');
@@ -480,7 +533,29 @@ function renderAll(isRankingOnly = false) {
   renderNextPage(); // Renamed from renderNextBatch in previous context, checking match
 }
 
-// --------- Top 150 Cards ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// --------- Top 150 Cards & Featured ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function updateFeaturedLanguage() {
+  const featuredSection = document.getElementById('featured-language-section');
+  if (!featuredSection || !allLanguages.length) return;
+
+  const candidates = allLanguages.filter(l => l.ethnologueRank && l.ethnologueRank <= 50);
+  const featured = candidates[Math.floor(Math.random() * candidates.length)];
+
+  document.getElementById('featured-name').textContent = featured.name;
+  
+  let desc = featured.desc || generateFallbackDesc(featured);
+  if (desc.length > 280) desc = desc.slice(0, 280) + '...';
+  
+  document.getElementById('featured-desc').textContent = desc;
+
+  const btn = document.getElementById('featured-btn');
+  const newBtn = btn.cloneNode(true);
+  btn.parentNode.replaceChild(newBtn, btn);
+  newBtn.addEventListener('click', () => showLanguageDetails(featured));
+
+  featuredSection.classList.remove('hidden');
+}
+
 function renderTopLanguages() {
   const grid = document.getElementById('top-grid');
   if (!grid) return;
@@ -737,6 +812,27 @@ function generateFallbackDesc(lang) {
 }
 
 function showLanguageDetails(lang) {
+  // Prefer dedicated static language pages whenever a matching file exists.
+  const iso = String(lang.iso || '').toLowerCase();
+  if (iso) {
+    const pathPrefix = window.location.pathname.includes('/languages/') ? '../' : '';
+    const targetPage = pathPrefix + 'languages/' + iso + '.html';
+    fetch(targetPage, { method: 'HEAD' })
+      .then((response) => {
+        if (response.ok) {
+          window.location.assign(targetPage);
+          return;
+        }
+        openLanguageModal(lang);
+      })
+      .catch(() => openLanguageModal(lang));
+    return;
+  }
+
+  openLanguageModal(lang);
+}
+
+function openLanguageModal(lang) {
   const modal = document.getElementById('modal-overlay');
   const rank = lang.ethnologueRank || '-';
 
